@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 100px;
+}
+th , td{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.233);
+}
+/* th{
+    float: left;
+
+} */
